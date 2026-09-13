@@ -1,0 +1,9 @@
+{
+  "evenement": "commande.payee",
+  "commande": {
+    "id": 1043, "statut": "PAYEE", "date": "2026-09-13", "transporteur": "", "suivi": "",
+    "livraison": {"nom": "Durand", "prenom": "Camille", "adresse": "12 rue des Lilas", "code_postal": "72300", "ville": "Sable-sur-Sarthe", "telephone": "0600000000", "email": "camille@example.com", "mode": "Colissimo"},
+    "lignes": [{"reference": "S-9", "produit_id": 321, "titre": "Tote bag", "quantite": 2, "prix_ttc": "19.00", "total_ttc": "38.00", "couleur": "", "taille": "", "position": "", "texte_3d": "", "renseignement": ""}],
+    "total_vendeur_ttc": "38.00"
+  }
+}
