@@ -22,4 +22,6 @@ Licence MIT.
 
 - [WordPress / WooCommerce](https://github.com/tony-dev-web/exantrix-marketplace-wordpress)
 - [PrestaShop](https://github.com/tony-dev-web/exantrix-marketplace-prestashop)
+- [Magento 2](https://github.com/tony-dev-web/exantrix-marketplace-magento)
+- [Drupal Commerce](https://github.com/tony-dev-web/exantrix-marketplace-drupal)
 - Site et API : [exantrix.com](https://github.com/tony-dev-web/exantrix.com) (source de la marketplace, Django) — https://exantrix.com/extensions/
