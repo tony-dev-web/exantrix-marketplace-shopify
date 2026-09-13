@@ -17,3 +17,9 @@ Relier une boutique Shopify à la marketplace française [Exantrix](https://exan
 Shopify n'accepte pas de commandes externes par ce canal. Chaque commande payée sur Exantrix est envoyée par email et, si une URL est renseignée, par webhook JSON signé HMAC-SHA256 avec le jeton API (`X-Exantrix-Signature: sha256=<hmac>`). Exemple de payload : `exemple-webhook-commande.json` ; vérification de signature : `verifier_signature.py`.
 
 Licence MIT.
+
+## Les extensions Exantrix
+
+- [WordPress / WooCommerce](https://github.com/tony-dev-web/exantrix-marketplace-wordpress)
+- [PrestaShop](https://github.com/tony-dev-web/exantrix-marketplace-prestashop)
+- Site et API : [exantrix.com](https://github.com/tony-dev-web/exantrix.com) (source de la marketplace, Django) — https://exantrix.com/extensions/
