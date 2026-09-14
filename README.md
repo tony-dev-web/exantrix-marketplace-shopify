@@ -1,5 +1,7 @@
 # Exantrix marketplace et Shopify
 
+Connexion pour [Shopify](https://www.shopify.com) (code source et outils officiels : [github.com/Shopify](https://github.com/Shopify), API Admin : [shopify.dev](https://shopify.dev/docs/api/admin-rest)).
+
 Relier une boutique Shopify à la marketplace française [Exantrix](https://exantrix.com) sans application à installer : une app personnalisée Shopify, et Exantrix s'abonne aux webhooks de la boutique (produits, stock).
 
 **Guide complet** : https://exantrix.com/extensions/shopify
@@ -17,6 +19,13 @@ Relier une boutique Shopify à la marketplace française [Exantrix](https://exan
 Shopify n'accepte pas de commandes externes par ce canal. Chaque commande payée sur Exantrix est envoyée par email et, si une URL est renseignée, par webhook JSON signé HMAC-SHA256 avec le jeton API (`X-Exantrix-Signature: sha256=<hmac>`). Exemple de payload : `exemple-webhook-commande.json` ; vérification de signature : `verifier_signature.py`.
 
 Licence MIT.
+
+## Plateformes : sites et sources
+
+| Plateforme | Site officiel | Code source | Documentation développeur |
+|---|---|---|---|
+| Shopify | https://www.shopify.com | https://github.com/Shopify | https://shopify.dev/docs/api/admin-rest |
+| Shopify webhooks | https://shopify.dev/docs/apps/build/webhooks | — | — |
 
 ## Les extensions Exantrix
 
